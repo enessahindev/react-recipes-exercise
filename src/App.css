@@ -1,0 +1,58 @@
+/* App.css */
+
+:root {
+  --color-primary: #2ac5af;
+}
+
+body .rc-slider-rail {
+  background: rgb(67, 67, 100 / 12%);
+}
+
+body .rc-slider-handle {
+  border-color: #fff;
+  background: var(--color-primary);
+  opacity: 1;
+  scale: 1.5;
+}
+
+body .rc-slider-handle:hover,
+body .rc-slider-handle-dragging {
+  box-shadow: none !important;
+  border-color: #ffff !important;
+  cursor: pointer !important;
+}
+
+body .rc-slider-track {
+  background: var(--color-primary);
+}
+
+.card {
+  display: grid;
+  gap: 14px;
+  padding: 20px 20px 24px;
+  width: 260px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+h2,
+h3 {
+  font-weight: 500;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: rgb(67, 67, 100 / 50%);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 38px;
+  color: rgb(67, 67, 100 / 100%);
+}
+
+.card h3 abbr {
+  margin-right: 4px;
+  color: rgb(67, 67, 100 / 25%);
+}
